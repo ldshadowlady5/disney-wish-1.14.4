@@ -1,0 +1,14 @@
+[{
+	"modid": "customcraftingtables",
+	"name": "CustomCraftingTables",
+	"description": "LDShadowLady's Custom Crafting Tables",
+	"version": "${version}",
+	"mcversion": "${mcversion}",
+	"url": "",
+	"updateUrl": "",
+	"authorList": [ "LDShadowLady" ],
+	"credits": "",
+	"logoFile": "",
+	"screenshots": [],
+	"dependencies": []
+}]

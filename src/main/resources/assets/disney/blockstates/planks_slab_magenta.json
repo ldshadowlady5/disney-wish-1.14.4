@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "disney:block/planks_slab_magenta_bottom"},
+        "type=top": { "model": "disney:block/planks_slab_magenta_top" },
+        "type=double": { "model": "disney:block/planks_magenta" }
+    }
+}
