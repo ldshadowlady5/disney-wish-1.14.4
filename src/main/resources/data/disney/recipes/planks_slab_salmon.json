@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "disney:planks_salmon"
+    }
+  },
+  "result": {
+    "item": "disney:planks_slab_salmon",
+    "count": 6
+  }
+}

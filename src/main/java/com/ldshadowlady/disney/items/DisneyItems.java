@@ -43,6 +43,8 @@ public final class DisneyItems {
     public static final RegistryObject<BlockItem>  PLANKS_SLAB_PINK = REG.register("planks_slab_pink", com.ldshadowlady.disney.items.DisneyItems.create(DisneyBlocks.PLANKS_SLAB_PINK));
     public static final RegistryObject<BlockItem>  PLANKS_SLAB_PURPLE = REG.register("planks_slab_purple", com.ldshadowlady.disney.items.DisneyItems.create(DisneyBlocks.PLANKS_SLAB_PURPLE));
     public static final RegistryObject<BlockItem>  PLANKS_SLAB_SALMON = REG.register("planks_slab_salmon", com.ldshadowlady.disney.items.DisneyItems.create(DisneyBlocks.PLANKS_SLAB_SALMON));
+    public static final RegistryObject<Item> DISNEY_WISH = REG.register("disney_wish", () -> new WishItem(new Item.Properties()));
+
 
     public static final RegistryObject<Item> MICKEY_HAT = REG.register("mickey_hat", () -> new DisneyHatItem(ArmorMaterialList.disney, EquipmentSlotType.HEAD,(new Item.Properties()).group(ItemGroup.COMBAT)));
     public static final RegistryObject<Item> MINNIE_HAT = REG.register("minnie_hat", () -> new DisneyHatItem(ArmorMaterialList.disney, EquipmentSlotType.HEAD,(new Item.Properties()).group(ItemGroup.COMBAT)));

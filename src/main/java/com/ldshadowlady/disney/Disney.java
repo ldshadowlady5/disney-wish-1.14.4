@@ -17,7 +17,8 @@ public class Disney {
     public Disney() {
         com.ldshadowlady.disney.blocks.DisneyBlocks.REG.register(FMLJavaModLoadingContext.get().getModEventBus());
         com.ldshadowlady.disney.items.DisneyItems.REG.register(FMLJavaModLoadingContext.get().getModEventBus());
-        //OreGeneration.setupOreGeneration();
+        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
+
     }
     private void setup(final FMLCommonSetupEvent event)
     {

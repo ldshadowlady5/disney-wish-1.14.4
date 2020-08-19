@@ -19,8 +19,10 @@ public class OreGeneration {
     {
         for(Biome biome : ForgeRegistries.BIOMES)
         {
-            CountRangeConfig disney_ore_placement = new CountRangeConfig(1000,0,0,100);
-            biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(Feature.ORE, new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, DisneyBlocks.DISNEY_ORE.get().getDefaultState(),1000), Placement.COUNT_RANGE, new CountRangeConfig(100,0,0,100)));
+            biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(Feature.ORE,
+                    new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, DisneyBlocks.DISNEY_ORE.get()
+                            .getDefaultState(),10), Placement.COUNT_RANGE,
+                    new CountRangeConfig(10,0,0,70)));
         }
     }
 }
