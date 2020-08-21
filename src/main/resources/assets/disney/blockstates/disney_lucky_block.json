@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "disney:block/disney_lucky_block" }
+        "": { "model": "disney:block/disney_lucky_block" }
     }
 }

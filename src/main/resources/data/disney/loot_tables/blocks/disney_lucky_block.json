@@ -1,0 +1,100 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "disney:bambi_hat",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "disney:baymax_hat",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "disney:coco_hat",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "disney:daisy_hat",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "disney:donald_hat",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "disney:fantasia_hat",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "disney:goofy_hat",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "disney:lucky_hat",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "disney:mickey_hat",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "disney:minnie_hat",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "disney:oddball_hat",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "disney:patch_hat",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "disney:penny_hat",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "disney:pluto_hat",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "disney:pooh_hat",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "disney:stitch_hat",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "disney:tigerlily_hat",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "disney:yoda_hat",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

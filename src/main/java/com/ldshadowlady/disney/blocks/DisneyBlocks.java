@@ -15,8 +15,8 @@ public final class DisneyBlocks {
 
     public static final DeferredRegister<Block> REG = new DeferredRegister<>(ForgeRegistries.BLOCKS, ID);
 
-    public static final RegistryObject<DisneyLuckyBlock> DISNEY_LUCKY_BLOCK = REG.register("disney_lucky_block", () -> new DisneyLuckyBlock(Block.Properties.create(Material.WOOD).hardnessAndResistance(2.5F).sound(SoundType.WOOD)));
-    public static final RegistryObject<DisneyLuckyBlock> DISNEY_ORE = REG.register("disney_ore", () -> new DisneyLuckyBlock(Block.Properties.create(Material.WOOD).hardnessAndResistance(2.5F).sound(SoundType.WOOD)));
+    public static final RegistryObject<DisneyLuckyBlock> DISNEY_LUCKY_BLOCK = REG.register("disney_lucky_block", () -> new DisneyLuckyBlock(Block.Properties.create(Material.ROCK).hardnessAndResistance(0.5F).sound(SoundType.STONE)));
+    public static final RegistryObject<DisneyLuckyBlock> DISNEY_ORE = REG.register("disney_ore", () -> new DisneyLuckyBlock(Block.Properties.create(Material.ROCK).hardnessAndResistance(2.5F).sound(SoundType.STONE)));
     public static final RegistryObject<PlankBlock> PLANKS_LIGHT_BLUE = REG.register("planks_light_blue", () -> new PlankBlock(Block.Properties.create(Material.WOOD).hardnessAndResistance(2.5F).sound(SoundType.WOOD)));
     public static final RegistryObject<PlankBlock> PLANKS_LIME = REG.register("planks_lime", () -> new PlankBlock(Block.Properties.create(Material.WOOD).hardnessAndResistance(2.5F).sound(SoundType.WOOD)));
     public static final RegistryObject<PlankBlock> PLANKS_MAGENTA = REG.register("planks_magenta", () -> new PlankBlock(Block.Properties.create(Material.WOOD).hardnessAndResistance(2.5F).sound(SoundType.WOOD)));
