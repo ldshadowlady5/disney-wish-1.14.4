@@ -24,6 +24,7 @@ public final class DisneyItems {
 
     public static final RegistryObject<BlockItem> DISNEY_LUCKY_BLOCK = REG.register("disney_lucky_block", com.ldshadowlady.disney.items.DisneyItems.create(DisneyBlocks.DISNEY_LUCKY_BLOCK));
     public static final RegistryObject<BlockItem> DISNEY_ORE = REG.register("disney_ore", com.ldshadowlady.disney.items.DisneyItems.create(DisneyBlocks.DISNEY_ORE));
+    public static final RegistryObject<Item> DISNEY_WISH = REG.register("disney_wish", () -> new WishItem(new Item.Properties().group(DISNEY)));
 
     public static final RegistryObject<Item> MICKEY_HAT = REG.register("mickey_hat", () -> new DisneyHatItem((new Item.Properties().group(DISNEY))));
     public static final RegistryObject<Item> MINNIE_HAT = REG.register("minnie_hat", () -> new DisneyHatItem((new Item.Properties().group(DISNEY))));
@@ -65,15 +66,14 @@ public final class DisneyItems {
     public static final RegistryObject<BlockItem>  PLANKS_SLAB_PINK = REG.register("planks_slab_pink", com.ldshadowlady.disney.items.DisneyItems.create(DisneyBlocks.PLANKS_SLAB_PINK));
     public static final RegistryObject<BlockItem>  PLANKS_SLAB_PURPLE = REG.register("planks_slab_purple", com.ldshadowlady.disney.items.DisneyItems.create(DisneyBlocks.PLANKS_SLAB_PURPLE));
     public static final RegistryObject<BlockItem>  PLANKS_SLAB_SALMON = REG.register("planks_slab_salmon", com.ldshadowlady.disney.items.DisneyItems.create(DisneyBlocks.PLANKS_SLAB_SALMON));
-    public static final RegistryObject<Item> DISNEY_WISH = REG.register("disney_wish", () -> new WishItem(new Item.Properties()));
 
+    private static Item.Properties defaultProperties() {
+        return new Item.Properties().group(DISNEY);
+    }
 
 
     private static Supplier<BlockItem> create(final RegistryObject<? extends Block> block) {
         return () -> new BlockItem(block.orElseThrow(IllegalStateException::new), defaultProperties());
-    }
-    private static Item.Properties defaultProperties() {
-        return new Item.Properties().group(DISNEY);
     }
 
 }
