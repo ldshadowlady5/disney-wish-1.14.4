@@ -5,18 +5,18 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.IArmorMaterial;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
 import javax.annotation.Nullable;
 
-public class DisneyHatItem extends ArmorItem {
-    public DisneyHatItem(IArmorMaterial materialIn, EquipmentSlotType slot, Properties properties) {
-        super(materialIn, slot, properties);
+public class DisneyHatItem extends Item {
+    public DisneyHatItem(Item.Properties builder) {
+        super(builder);
     }
 
-    @Nullable
     @Override
-    public <A extends BipedModel<?>> A getArmorModel(LivingEntity entityLiving, ItemStack itemStack, EquipmentSlotType armorSlot, A _default) {
-        return null;
+    public EquipmentSlotType getEquipmentSlot(ItemStack stack) {
+        return EquipmentSlotType.HEAD;
     }
 }
